@@ -1,5 +1,5 @@
 # llrblog
-This is the code for my blog, hosted [here](https://llrblog.vercel.com)
+This is the code for my blog, hosted [here](https://llrblog.vercel.app)
 
 it uses a mix of json files for metadata and Markdown for the actual content
 
