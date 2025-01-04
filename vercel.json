@@ -1,0 +1,11 @@
+{
+   "routes": [
+      
+      { "src": "/projects/projects.json", "dest": "/projects/projects.json" },
+      { "src": "/projects/[^\\.]*/article/[^\\.]*", "dest": "/article.html?name=$1&article=$2" },
+      { "src": "/projects/[^\\.]*", "dest": "/project.html?name=$1" },
+      { "src": "/favicon.ico", "dest": "/logo.webp" },
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "status": 404, "dest": "https://http.cat/404" }
+   ]
+ }

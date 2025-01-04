@@ -1,0 +1,101 @@
+body {
+	background-color: #202123;
+   color: #fff;
+}
+
+.nav-wrapper {
+   background-color: #26A69A;
+}
+
+.card {
+   background-color: rgba(255,255,255,0.2);
+}
+
+.card-project {
+   cursor: pointer;
+   transition: all .3s ease;
+}
+
+.card-article {
+   cursor: pointer;
+   transition: all .3s ease;
+
+   max-width: 20vw;
+}
+ 
+.card-project:hover {
+   border: 3px solid var(--primary-color);
+   opacity: 0.9;
+}
+
+.card-article:hover  {
+   border: 3px solid var(--primary-color);
+   opacity: 0.85;
+}
+
+.project-logo
+{
+   border-radius: 15px;
+   max-height: 8vh;
+
+   vertical-align: middle;
+
+   width: 200px;
+   max-height: 200px;
+}
+
+.btn {
+   background-color: #EE6F73;
+}
+
+.img-logo {
+   border-radius: 25px;
+   max-height: 5vh;
+
+   
+   /*margin: 5px;*/
+}
+
+.brand-logo
+{
+   margin: 5px;
+   margin-left: 15px;
+}
+
+
+
+.project-img-big
+{
+   border-radius: 15px;
+
+   margin-left: 25px;
+   margin-top: 25px;
+
+   margin-right: 15px;
+
+   vertical-align: top;
+
+   width: 300px;
+   max-height: 500px;
+}
+
+.article-top-background
+{
+   width: 100%;
+   max-height: 20vh;
+   object-fit: cover;
+
+   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1) 75%, rgba(0,0,0,0));
+}
+
+.article-top-hr1 {
+   opacity: 0.5;
+}
+
+.article-card-title
+{
+   backdrop-filter: blur(1px) saturate(70%) brightness(50%);
+   border-radius: 0 5px 0 0;
+
+   max-height: 100%;
+}

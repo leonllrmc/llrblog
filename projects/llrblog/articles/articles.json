@@ -1,0 +1,10 @@
+{
+   "articles_metadata":{
+      "test": {
+         "publish_date": "03/01/2025 18:45",
+         "title": "A simple article test",
+         "description": "This article serves only as a test for the platform article system...",
+         "top_background": "/img/afaf68c2536254ce56e22d0f32009bda7fdc3fdfr1-480-270_hq.gif"
+      }
+   }
+}
