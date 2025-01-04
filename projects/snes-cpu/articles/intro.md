@@ -23,4 +23,5 @@ The rigid *"mainboard"* is only comprised of that, some voltage shifter, as the 
 
 
 
-
+<br><br>
+Just got to my mind, but this could techically have been called the snes complementarity/instrumentality project (yes I'm an evangelion fan)<br>
