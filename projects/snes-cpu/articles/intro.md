@@ -19,7 +19,7 @@ The rigid *"mainboard"* is only comprised of that, some voltage shifter, as the 
 - [ ] Design the FPGA mainboard
 - [ ] Program or adapt a S-CPU IP
 - [ ] Test the replacement
-- [ ] (Maybe) commercialise it
+- [ ] {Maybe} commercialise it
 
 
 
