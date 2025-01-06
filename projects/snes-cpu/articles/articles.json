@@ -5,6 +5,12 @@
          "title": "Introduction on this project",
          "description": "Introduction on the SNES CPU replacement project",
          "top_background": "/img/snes-motherboard-cpu-revA-removed.jpg"
+      },
+      "flex_pcb_1": {
+         "publish_date": "06/01/2025 22:22",
+         "title": "[Part 1] First steps on the flex PCB",
+         "description": "Advancement on the schematic of the flex interfaces",
+         "top_background": "/img/2CDD429C-8AC8-4779-8C72-745876C782D5.png"
       }
    }
 }

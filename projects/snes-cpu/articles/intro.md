@@ -15,7 +15,7 @@ These will connect to a rigid PCB, housing a **ICE40HX8K** FPGA chip, this was c
 The rigid *"mainboard"* is only comprised of that, some voltage shifter, as the 5V CMOS input high level is sadly over the 3.3V CMOS output level (if anyone knows a way to run the FPGA I/O at 5V for outputs, **please let me know**), And a memory flash (the internal OTP from the FPGA could be used, but it's not fun if it's set in stone)
 
 ### Roadmap
-- [ ] Design the flex PCB
+- [2/5] Design the flex PCB
 - [ ] Design the FPGA mainboard
 - [ ] Program or adapt a S-CPU IP
 - [ ] Test the replacement
