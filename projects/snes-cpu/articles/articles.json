@@ -11,6 +11,12 @@
          "title": "[Part 1] First steps on the flex PCB",
          "description": "Advancement on the schematic of the flex interfaces",
          "top_background": "/img/2CDD429C-8AC8-4779-8C72-745876C782D5.png"
+      },
+      "flex_pcb_2": {
+         "publish_date": "19/01/2025 22:42",
+         "title": "[Part 2] Near end the flex PCB design",
+         "description": "The S-LCL (flex interface) design is near completion",
+         "top_background": "/img/IMG_20250113_062051.jpg"
       }
    }
 }

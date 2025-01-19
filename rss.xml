@@ -12,7 +12,24 @@
     <link>https://llrblog.vercel.app/projects/snes-cpu/article/intro</link>
     <description>Introduction on the S-CPU replacement project</description>
     <author>leonllrmc</author>
-    <pubDate>04/01/2025 14:36</pubDate>
+    <pubDate>Sat, 04 Jan 2025 14:36:00 +0100</pubDate>
+  </item>
+
+  
+  <item>
+    <title>[Part 1] First steps on the flex PCB</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/flex_pcb_1</link>
+    <description>Advancement on the schematic of the flex interfaces</description>
+    <author>leonllrmc</author>
+    <pubDate>Mon, 06 Jan 2025 22:22:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>[Part 2] Near end the flex PCB design</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/flex_pcb_2</link>
+    <description>The S-LCL (flex interface) design is near completion</description>
+    <author>leonllrmc</author>
+    <pubDate>Sun, 19 Jan 2025 22:42:00 +0100</pubDate>
   </item>
 </channel>
 
