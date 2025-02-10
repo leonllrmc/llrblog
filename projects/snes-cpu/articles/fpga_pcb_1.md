@@ -1,0 +1,1 @@
+Hey, so now I will start talking about a part that recived virtually no attention on this blog yet: the FPGA mainboard
