@@ -17,6 +17,12 @@
          "title": "[Part 2] Near end the flex PCB design",
          "description": "The S-LCL (flex interface) design is near completion",
          "top_background": "/img/IMG_20250113_062051.jpg"
+      },
+      "fpga_pcb_1": {
+         "publish_date": "12/02/2025 22:42",
+         "title": "FPGA Board & Project seeing completion on the horizon [WIP]",
+         "description": "Progress on the FPGA board and talking about commercialization [WIP]",
+         "top_background": "/img/B6F12B43-2841-4125-8580-0674055AFE9C.png"
       }
    }
 }
