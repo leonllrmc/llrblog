@@ -20,9 +20,15 @@
       },
       "fpga_pcb_1": {
          "publish_date": "12/02/2025 22:42",
-         "title": "FPGA Board & Project seeing completion on the horizon [WIP]",
-         "description": "Progress on the FPGA board and talking about commercialization [WIP]",
+         "title": "FPGA Board & Start of PCB",
+         "description": "Progress on the FPGA board and talking about commercialization",
          "top_background": "/img/B6F12B43-2841-4125-8580-0674055AFE9C.png"
+      },
+      "fpga_pcb_2": {
+         "publish_date": "30/03/2025 21:32",
+         "title": "Finishing FPGA board",
+         "description": "The routing of the FPGA board is finished, the project is on the horizon",
+         "top_background": "/img/1ED790D3-0C58-4C8F-A92C-4C6DE1D0A691.png"
       }
    }
 }
