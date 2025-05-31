@@ -120,3 +120,23 @@ html, :root
    color-scheme: dark!important; 
    prefers-color-scheme: dark!important;
 }
+
+#article-markdown ol,
+#article-markdown ul {
+    list-style-type: decimal;
+}
+#article-markdown img
+{
+   min-width: 50vw;
+   max-width: 80vw;
+
+   margin: 5px;
+
+   overflow: visible;
+}
+
+.carousel
+{
+   margin-bottom: 10px;
+   overflow: visible!important;
+}

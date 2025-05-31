@@ -4,6 +4,12 @@ const articleBodyMarkdown = document.querySelector("#article-markdown");
 
 const markdownDecoder = new showdown.Converter();
 
+const carousel_options = {
+   //fullWidth: true,
+   numVisible: 1,
+   //dist: 0
+}
+
 async function renderProjectInfos(projectName, articleName)
 {
 
@@ -33,6 +39,9 @@ async function renderProjectInfos(projectName, articleName)
    }));
 
    articleBodyMarkdown.innerHTML = markdownDecoder.makeHtml(articleText);
+
+   var elems = document.querySelectorAll('.carousel');
+   var instances = M.Carousel.init(elems, carousel_options);
 }
 
 function parseDate(input, format) {
@@ -47,10 +56,11 @@ function parseDate(input, format) {
 
 window.addEventListener("DOMContentLoaded", async () => {
    // should have used regex group, but can't figure out how to get it working :(
-   let [ , , projectName, , articleName] = window.location.toString().match(/\/projects\/(.*)\/article\/(.*)/g)[0].split("/");
+   let [ , , projectName, , articleName] = window.location.toString().split("#")[0].match(/\/projects\/(.*)\/article\/(.*)/g)[0].split("/");
 
 
    document.querySelector("title").innerText = articleName + " article (llrblog)";
 
    renderProjectInfos(projectName, articleName);
 });
+

@@ -31,6 +31,29 @@
     <author>leonllrmc</author>
     <pubDate>Sun, 19 Jan 2025 22:42:00 +0100</pubDate>
   </item>
-</channel>
 
+    <item>
+    <title>FPGA Board & Start of PCB</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/fpga_pcb_1</link>
+    <description>Progress on the FPGA board and talking about commercialization</description>
+    <author>leonllrmc</author>
+    <pubDate>Wed, 12 Feb 2025 22:42:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>Finishing FPGA board</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/fpga_pcb_2</link>
+    <description>The routing of the FPGA board is finished, the project is on the horizon</description>
+    <author>leonllrmc</author>
+    <pubDate>Sun, 30 Mar 2025 21:32:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>Physical boards arrived !</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/proto_1</link>
+    <description>The boards have just arrived, first tests next week</description>
+    <author>leonllrmc</author>
+    <pubDate>Sat, 31 May 2025 13:58:00 +0100</pubDate>
+  </item>
+</channel>
 </rss>

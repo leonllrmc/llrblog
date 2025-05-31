@@ -29,8 +29,6 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
    <script src="/common.js"></script>
-
-   <link rel="stylesheet" href="https://cusdis.com/js/style.css">
 </head>
 <body class="is-dark">
    <nav>
@@ -76,7 +74,7 @@
       (async () => {
          const cusdis_thread_el = document.getElementById('cusdis_thread');
 
-         let [ , , projectName, , articleName] = window.location.toString().match(/\/projects\/(.*)\/article\/(.*)/g)[0].split("/");
+         let [ , , projectName, , articleName] = window.location.toString().split("#")[0].match(/\/projects\/(.*)\/article\/(.*)/g)[0].split("/");
 
          let articlesObj = await fetch(`/projects/${projectName}/articles/articles.json`).then(r => r.json()).catch(console.error);
          let articleObj = articlesObj.articles_metadata[articleName];
