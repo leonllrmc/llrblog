@@ -49,3 +49,5 @@ I want to thank all persons that wrote an article on this project, I will put he
 <br>So thank you again for everyone supporting the project, can't wait to be able to send you a video of the project working !<br>
 
 ###### If you have any questions, remarks, advise, constructive criticism or anthing else don't hesistate to share them using the new comment system !
+<br>
+[Also please reply to this short survey on how you've discovered my blog/project](https://docs.google.com/forms/d/e/1FAIpQLSfStenFby6mZT7K5Tq_C-yR0oSDcGuE4OZwHXcszHMicSt05w/viewform?usp=dialog)
