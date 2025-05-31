@@ -29,6 +29,12 @@
          "title": "Finishing FPGA board",
          "description": "The routing of the FPGA board is finished, the project is on the horizon",
          "top_background": "/img/1ED790D3-0C58-4C8F-A92C-4C6DE1D0A691.png"
+      },
+      "proto_1": {
+         "publish_date": "30/05/2025 20:37",
+         "title": "Physical boards here!",
+         "description": "The boards have just arrived, first tests next week",
+         "top_background": "/img/IMG_20250528_140105.jpg"
       }
    }
 }

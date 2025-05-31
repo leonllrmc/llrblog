@@ -106,3 +106,17 @@ body {
       
    }
 }
+
+
+
+#cusdis_thread iframe
+{
+   min-height: 100vh;
+
+}
+
+html, :root
+{
+   color-scheme: dark!important; 
+   prefers-color-scheme: dark!important;
+}
