@@ -46,6 +46,6 @@ I want to thank all persons that wrote an article on this project, I will put he
 -  [FPGA-Technik belebt defekte Super Nintendo Konsolen wieder, Gamefront quickly covering it (In german)](https://gamefront.de/archiv04-2025-gamefront/april-2025.html#:~:text=FPGA-Technik)
 
 ![shinji happy](/projects/snes-cpu/img/8E94Hcmj7huy1zw6PDzm1LcOz8lmJOI8W3_UIliM6puzgxsdnIP4nhBcXq5y_EBLnqUqwuPCkib0WjhBM_DfCw.gif)
-So thank you again for everyone supporting the project, can't wait to be able to send you a video of the project working !<br>
+<br>So thank you again for everyone supporting the project, can't wait to be able to send you a video of the project working !<br>
 
 ###### If you have any questions, remarks, advise, constructive criticism or anthing else don't hesistate to share them using the new comment system !
