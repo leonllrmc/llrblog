@@ -63,5 +63,13 @@
     <author>leonllrmc</author>
     <pubDate>Mon, 11 Aug 2025 10:56:00 +0100</pubDate>
   </item>
+
+  <item>
+    <title>First test fail !</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/test_1</link>
+    <description>a Tale of the first powerup, suspected causes and future timeline</description>
+    <author>leonllrmc</author>
+    <pubDate>Mon, 11 Aug 2025 18:56:00 +0100</pubDate>
+  </item>
 </channel>
 </rss>
