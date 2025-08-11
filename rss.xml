@@ -55,5 +55,13 @@
     <author>leonllrmc</author>
     <pubDate>Sat, 31 May 2025 13:58:00 +0100</pubDate>
   </item>
+
+  <item>
+    <title>First test fail !</title>
+    <link>http://localhost:3000/projects/snes-cpu/article/test_1</link>
+    <description>a Tale of the first powerup, suspected causes and future timeline</description>
+    <author>leonllrmc</author>
+    <pubDate>Mon, 11 Aug 2025 10:56:00 +0100</pubDate>
+  </item>
 </channel>
 </rss>

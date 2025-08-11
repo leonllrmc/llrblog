@@ -35,6 +35,12 @@
          "title": "Physical boards arrived !",
          "description": "The boards have just arrived, first tests next week",
          "top_background": "/img/IMG_20250528_140105.jpg"
+      },
+      "test_1": {
+         "publish_date": "11/08/2025 10:56",
+         "title": "First test fail",
+         "description": "Tale of the first powerup, suspected causes and future timeline",
+         "top_background": "/img/1754845579731_thumbnail.jpg"
       }
    }
 }

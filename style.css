@@ -128,7 +128,7 @@ html, :root
 #article-markdown img
 {
    min-width: 50vw;
-   max-width: 80vw;
+   max-width: 70vw;
 
    margin: 5px;
 
@@ -139,4 +139,8 @@ html, :root
 {
    margin-bottom: 10px;
    overflow: visible!important;
+}
+
+p {
+   text-size-adjust: 250%;
 }
