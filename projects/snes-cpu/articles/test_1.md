@@ -54,6 +54,6 @@ This may be fixed by adding a schmit trigger to the clock input.<br><br>
 I will be meeting the same professor that helped me with the soldering to diagnose the input sometime after the end of August, I may need to postpond that until the end of september due to my participation in the [SwissSkills competition](https://swiss-skills2025.ch/fr) that requires heavy training.<br><br>
 
 To end this article, here a few more pics of the FPGA board:<br>
-![FPGA board with SNES](/projects/snes-cpu/img/1754845579731.jpg)
+![FPGA board with SNES](/projects/snes-cpu/img/1754845579731_thumbnail.jpg)
 ![FPGA board](/projects/snes-cpu/img/1754845164034.jpg)
 ![FPGA board](/projects/snes-cpu/img/1754845163946.jpg)
