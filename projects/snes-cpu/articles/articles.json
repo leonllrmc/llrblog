@@ -41,6 +41,12 @@
          "title": "First test fail",
          "description": "Tale of the first powerup, suspected causes and future timeline",
          "top_background": "/img/1754845579731_thumbnail.jpg"
+      },
+      "proto_funding_1": {
+         "publish_date": "23/09/2025 17:53",
+         "title": "Needing Funding",
+         "description": "After the failure of the first test, Additional PCB need to be assemble, but I have not much money for that...",
+         "top_background": "/img/image.png"
       }
    }
 }
