@@ -41,7 +41,7 @@ Moral of the story: Don't trust aliexpress for sensitive and potentially dangero
 <br>The board just before the first test (along with the soldered programmer)<br>
 ![soldered board](/projects/snes-cpu/img/1753797947334.jpg)
 <br><br>
-The result of the initial test were video but a black screen, the same happens when the CPU is entirely disconnected<br>
+The result of the initial test were a present video signal but outputing only black screen, the same happens when the CPU is entirely disconnected<br>
 Conclusion: Nothing got damaged
 
 <br><br>
@@ -51,9 +51,9 @@ Here, CH2 is the SNES main system clock passed trough the level shifter (XIN), a
 Conclusion: The XIN signal is probably too deformed for the FPGA to process, <br>since there is no internal Oscillator to test and the programing phase only care about a Flash being present it may also be due to a defective FPGA (injecting a function generator signal doesn't seam to cause a reaction, so it's plausible)<br>
 This may be fixed by adding a schmit trigger to the clock input.<br><br>
 
-I will be meeting the same professor that helped me with the soldering to diagnose the input sometime after the end of August, I may need to postpond that until the end of september due to my participation in the [SwissSkills competition](https://swiss-skills2025.ch/fr) that requires heavy training.<br><br>
+I will be meeting the same professor who helped me with the soldering to diagnose the input sometime after the end of August, I may need to postpone that until the end of september due to my participation in the [SwissSkills competition](https://swiss-skills2025.ch/fr) that requires heavy training.<br><br>
 
-To end this article, here a few more pics of the FPGA board:<br>
+To end this article, bellow are few more pics of the FPGA board:<br>
 ![FPGA board with SNES](/projects/snes-cpu/img/1754845579731_thumbnail.jpg)
 ![FPGA board](/projects/snes-cpu/img/1754845164034.jpg)
 ![FPGA board](/projects/snes-cpu/img/1754845163946.jpg)

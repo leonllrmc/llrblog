@@ -16,11 +16,77 @@ body {
    transition: all .3s ease;
 }
 
-.card-article {
+
+
+@media (max-width: 1300px) and (min-width: 950px) {
+   .card-article:first-child
+   {
+      margin-left: 0.5rem!important;
+   }
+
+   .col:has(.card-article)
+   {
+      margin-left: 120px!important;
+   }
+
+   .col:has(.card-article):first-child
+   {
+      margin-left: 0.5rem!important;
+   }
+}
+
+@media only screen and (min-width: 1300px) {
+   .card-article:first-child
+   {
+      margin-left: 0.5rem!important;
+   }
+
+   .col:has(.card-article)
+   {
+      margin-left: 80px!important;
+   }
+
+   .col:has(.card-article):first-child
+   {
+      margin-left: 0.5rem!important;
+   }
+}
+
+
+@media only screen and (min-width: 950px) {
+   .card-article:first-child
+   {
+      margin-left: 0.5rem!important;
+   }
+
+   .col:has(.card-article)
+   {
+      margin-left: 150px!important;
+   }
+
+   .col:has(.card-article):first-child
+   {
+      margin-left: 0.5rem!important;
+   }
+}
+
+@media only screen and (max-width: 950px) {
+   .col:has(.card-article)
+   {
+      margin-right: 50vw!important;
+   }
+}
+
+
+
+
+.card-article{
    cursor: pointer;
    transition: all .3s ease;
 
    max-width: 20vw;
+   min-width: 300px;
+   
 }
  
 .card-project:hover {

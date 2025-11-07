@@ -47,6 +47,12 @@
          "title": "Needing Funding",
          "description": "After the failure of the first test, Additional PCB need to be assemble, but I have not much money for that...",
          "top_background": "/img/image.png"
+      },
+      "version2_1": {
+         "publish_date": "07/11/2025 08:43",
+         "title": "I am stupid, or the unveiling of MK2",
+         "description": "I finally know why the MK1 failed and there stupid mistakes all over the place, however the MK2 is coming, fixing and improving everything",
+         "top_background": "/img/V2_ICE40HX8K_CPU_top.png"
       }
    }
 }
