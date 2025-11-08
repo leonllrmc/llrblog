@@ -24,6 +24,8 @@ Thanks a lot to everyone and especially to *Arnaud Loumy*
 - PL, for the MK2 initial design
 - FFVIMAN, for lending me 2 consoles to help with testing
 - (indirect) nand2mario, for snestang
+<br><br>
+Update: Special thanks to *CabriDIY* for [his video featuring my project](https://www.youtube.com/watch?v=qHtgzeYHhX4)
 
 ### Cause of failure of MK1
 So this is where the first part of the title comes in: <br>
