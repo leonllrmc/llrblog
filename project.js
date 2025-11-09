@@ -65,7 +65,7 @@ function parseDate(input, format) {
 
 window.addEventListener("DOMContentLoaded", async () => {
    // should have used regex group, but can't figure out how to get it working :(
-   let projectName = window.location.toString().match(/\/projects\/(.*)/g)[0].split("/")[2];
+   let projectName = window.location.toString().match(/\/projects\/(.*)/g)[0].split("/")[2].split("?")[0];
    
    document.querySelector("title").innerText = projectName + " project (llrblog)";
 
