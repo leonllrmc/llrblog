@@ -53,6 +53,12 @@
          "title": "I am stupid, or the unveiling of MK2",
          "description": "I finally know why the MK1 failed and there stupid mistakes all over the place, however the MK2 is coming, fixing and improving everything",
          "top_background": "/img/V2_ICE40HX8K_CPU_top.png"
+      },
+      "test_2": {
+         "publish_date": "27/11/2025 09:54",
+         "title": "Second test Failure, but way better than first one",
+         "description": "The MK2 has been assembled and tested, it's test wasn't a success but the results are promising",
+         "top_background": "/img/IMG_20251118_230710.jpg"
       }
    }
 }
