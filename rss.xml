@@ -95,5 +95,13 @@
     <author>leonllrmc</author>
     <pubDate>Thu, 27 Nov 2025 09:55:00 +0100</pubDate>
   </item>
+
+    <item>
+    <title>First (faint) signs of life</title>
+    <link>https://llrblog.vercel.app/projects/snes-cpu/article/advancements_1</link>
+    <description>After further testing, using a more hardware accurate method, it's slowly starting to come alive</description>
+    <author>leonllrmc</author>
+    <pubDate>Thu, 15 Jan 2026 09:30:03 +0100</pubDate>
+  </item>
 </channel>
 </rss>

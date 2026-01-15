@@ -59,6 +59,12 @@
          "title": "Second test Failure, but way better than first one",
          "description": "The MK2 has been assembled and tested, it's test wasn't a success but the results are promising",
          "top_background": "/img/IMG_20251118_230710.jpg"
+      },
+      "advancements_1": {
+         "publish_date": "15/01/2025 09:24",
+         "title": "First (faint) signs of life",
+         "description": "After further testing, using a more hardware accurate method, it's slowly starting to come alive",
+         "top_background": "/img/Screenshot_2026-01-15_083129.png"
       }
    }
 }
