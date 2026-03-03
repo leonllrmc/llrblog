@@ -61,10 +61,16 @@
          "top_background": "/img/IMG_20251118_230710.jpg"
       },
       "advancements_1": {
-         "publish_date": "15/01/2025 09:24",
+         "publish_date": "15/01/2026 09:24",
          "title": "First (faint) signs of life",
          "description": "After further testing, using a more hardware accurate method, it's slowly starting to come alive",
          "top_background": "/img/Screenshot_2026-01-15_083129.png"
+      },
+      "advancements_2": {
+         "publish_date": "03/03/2026 16:14",
+         "title": "First visible signs of life",
+         "description": "After a lot more tests and fixes, A result is finally showing (literally)",
+         "top_background": "/img/IMG_20260302_211122.jpg"
       }
    }
 }

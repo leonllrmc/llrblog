@@ -201,6 +201,16 @@ html, :root
    overflow: visible;
 }
 
+#article-markdown video
+{
+   min-width: 50vw;
+   max-width: 70vw;
+
+   margin: 5px;
+
+   overflow: visible;
+}
+
 .carousel
 {
    margin-bottom: 10px;
