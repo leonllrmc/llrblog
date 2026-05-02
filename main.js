@@ -20,9 +20,8 @@ async function renderProjectList()
       else if(!thumbnail.startsWith("http")) thumbnail = `/projects/${projectName}` + thumbnail;
 
       htmlCode += `
-      <div class="row" id="project-${projectName}">
-         <div class="col s12 m6">
-            <div class="card card-project blue-grey darken-1" onclick="window.location.assign('/projects/${projectName}')">
+         
+            <div id="project-${projectName}" class="card card-project blue-grey darken-1" onclick="window.location.assign('/projects/${projectName}')">
                <div class="card-content white-text">
                   <span class="card-title"><img src="${thumbnail}" class="project-logo"> ${title}</span>
                   <p>${description}</p>
@@ -32,8 +31,7 @@ async function renderProjectList()
                   <small>Article count: ${articleCount}</small>
                </div>
             </div>
-         </div>
-      </div>`;
+         `;
    }
 
    projectList.innerHTML = htmlCode;

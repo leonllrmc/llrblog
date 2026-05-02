@@ -1,3 +1,7 @@
+@font-face {
+   font-family: Rostex;
+   src: url(./font/Rostex-Regular.ttf);
+}
 body {
 	background-color: #202123;
    color: #fff;
@@ -14,8 +18,22 @@ body {
 .card-project {
    cursor: pointer;
    transition: all .3s ease;
+   width: 300px;
+   height: auto;
 }
-
+.main-title{
+   margin: 30px auto;
+   width: auto;
+   text-align: center;
+   font-family: Rostex;
+}
+.project-list{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+}
 
 
 @media (max-width: 1300px) and (min-width: 950px) {
