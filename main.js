@@ -23,13 +23,19 @@ async function renderProjectList()
          
             <div id="project-${projectName}" class="card card-project blue-grey darken-1" onclick="window.location.assign('/projects/${projectName}')">
                <div class="card-content white-text">
-                  <span class="card-title"><img src="${thumbnail}" class="project-logo"> ${title}</span>
+                  <img src="${thumbnail}" class="project-logo">
+                  <div class="card-text">
+                  <div class="card-top">
+                  <h3 class="project-title">${title}</h3>
                   <p>${description}</p>
-               </div>
-                           
-               <div class="card-action">
+                  </div>
+                  <div class="card-bottom">
                   <small>Article count: ${articleCount}</small>
                </div>
+                  </div>
+               </div>
+                           
+               
             </div>
          `;
    }

@@ -1,31 +1,42 @@
-@font-face {
-   font-family: Rostex;
-   src: url(./font/Rostex-Regular.ttf);
+@import url('./font.css');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   font-size: 16px;
+   scroll-behavior: smooth;
 }
 body {
 	background-color: #202123;
    color: #fff;
 }
-
+h2, h3, h4, h5, h6 {
+   font-family: Sprintura;
+}
+h1{
+   font-family: Rostex;
+   font-size: 3rem;
+}
+h2{
+   font-size: 2rem;
+}
+h3{
+   font-size: 1.5rem;
+}
+p{
+   font-family: Jost;
+}
+small{
+   font-family: Inter;
+}
 .nav-wrapper {
    background-color: #26A69A;
 }
 
 .card {
    background-color: rgba(255,255,255,0.2);
-}
-
-.card-project {
-   cursor: pointer;
-   transition: all .3s ease;
-   width: 300px;
-   height: auto;
-}
-.main-title{
-   margin: 30px auto;
-   width: auto;
-   text-align: center;
-   font-family: Rostex;
 }
 .project-list{
    display: flex;
@@ -36,6 +47,61 @@ body {
    gap: 20px;
 }
 
+.card-project {
+   cursor: pointer;
+   transition: all .3s ease;
+   width: 25%;
+   max-width: 400px;
+   min-width: 300px;
+   height: 500px;
+   padding-bottom: 30px;
+   margin: 30px;
+   clip-path: polygon(30px 0%, calc(100% - 30px) 0%, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0% calc(100% - 30px), 0% 30px);
+}
+.main-title{
+   margin: 30px auto;
+   width: auto;
+   text-align: center;
+   font-family: Rostex;
+} 
+.card-content {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.card-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 10px;
+   width: calc(100% - 60px);
+   margin: 0 auto;
+   margin-top: auto;
+   border-top: #202123 solid 1px ;
+
+}
+.card-text{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: space-evenly;
+   justify-content: center;
+   gap: 10px;
+   text-align: center;
+   padding: 0 20px;
+}
+.project-logo
+{
+   object-fit: cover;
+
+   max-height: 8vh;
+
+   width: 100%;
+   max-height: 250px;
+}
 
 @media (max-width: 1300px) and (min-width: 950px) {
    .card-article:first-child
@@ -118,16 +184,7 @@ body {
    opacity: 0.85;
 }
 
-.project-logo
-{
-   border-radius: 15px;
-   max-height: 8vh;
 
-   vertical-align: middle;
-
-   width: 200px;
-   max-height: 200px;
-}
 
 .btn {
    background-color: #EE6F73;

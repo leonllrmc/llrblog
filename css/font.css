@@ -1,0 +1,20 @@
+@font-face {
+   font-family: Rostex;
+   src: url(../font/Rostex-Regular.ttf);
+}
+@font-face {
+   font-family: Sprintura;
+   src: url(../font/Sprintura_Demo.otf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: Mokoto;
+    src: url(../font/Mokoto_Demo.ttf);
+}
+@font-face {
+    font-family: Jost;
+    src: url(../font/Jost-VariableFont_wght.ttf);
+}
