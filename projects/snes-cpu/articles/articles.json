@@ -71,6 +71,18 @@
          "title": "First visible signs of life",
          "description": "After a lot more tests and fixes, A result is finally showing (literally)",
          "top_background": "/img/IMG_20260302_211122.jpg"
+      },
+      "snestang_1": {
+         "publish_date": "04/07/2026 13:44",
+         "title": "Promising results from Circling back to the start (snestang)",
+         "description": "After more reimplementation, I circled back to snestang, which is giving promising results",
+         "top_background": "/img/Screenshot_2026-07-01_163931.png"
       }
+   },
+   "_ignore": {
+      "publish_date": "03/03/2026 16:14",
+      "title": "Restarting from a clean (code)base",
+      "description": "After about a year of college with some FPGA studies, I am no longer a verilog monkey, I am now a verilog monkey with PTSD (post timing stress disorder), so I decided to rewrite the codebase but this time taking what mindlessly copying the original devs idea taught me about the inner working of the CPU, and reimplementing the same function but in a more FPGA friendly way",
+      "top_background": "/img/IMG_20260302_211122.jpg"
    }
 }
